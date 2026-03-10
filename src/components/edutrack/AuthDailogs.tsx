@@ -247,7 +247,7 @@ export function RegisterDialog({ open, onOpenChange, onSwitchToLogin }: Register
               <Input
                 id="register-name"
                 type="text"
-                placeholder="John Doe"
+                placeholder=""
                 value={name}
                 onChange={(e) => setName(e.target.value)}
                 className="pl-10"
